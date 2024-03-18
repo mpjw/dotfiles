@@ -1,0 +1,5 @@
+[user]
+	email = marcus.wagner@tum.de
+	name = Marcus Wagner
+[credential]
+	helper = cache
