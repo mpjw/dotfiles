@@ -48,16 +48,19 @@ fi
 #PROMPT_COMMAND=update_PS1
 
 function prompt_right() {
-  echo -e "\033[0;33m"$(__git_ps1; echo $CONDA_DEFAULT_ENV)"\033[0m"
+  echo -e "\033[0;33m"$(echo $CONDA_DEFAULT_ENV; __git_ps1)"\033[0m"
 }
 
 function prompt_left() {
-  echo -e "\033[0;32m\u@\h\033[0m:\033[0;34m\w\033[0m"
+  # echo -e "\033[0;32m\u@\h\033[0m:\033[0;34m\w\033[0m"
+  echo -e "\033[0;34m\w\033[0m"
 }
 
+# Prompting function
 function prompt() {
-    compensate=11
-    PS1=$(printf "%*s\r%s\$ " "$(($(tput cols)+${compensate}))" "$(prompt_right)" "$(prompt_left)")
+    # compensate=11
+    # PS1=$(printf "%*s\r%s\$ " "$(($(tput cols)+${compensate}))" "$(prompt_right)" "$(prompt_left)")
+    PS1="$(prompt_right)$(prompt_left) \$ "
 }
 PROMPT_COMMAND=prompt
 
