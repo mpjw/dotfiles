@@ -1,0 +1,58 @@
+#!/usr/bin/sh
+
+# This script configures the terminal prompt and color.
+
+# limit directory depth in shell
+export PROMPT_DIRTRIM=1
+
+# infer active git head
+get_git_head() {
+    basename "$(git symbolic-ref HEAD 2>/dev/null)"
+}
+
+# determine software environment details: conda and git
+get_env_details() {
+    if [[ $(get_git_head) && $CONDA_DEFAULT_ENV ]]; then
+        echo "($CONDA_DEFAULT_ENV,$(get_git_head))"
+    elif [[ $CONDA_DEFAULT_ENV ]]; then
+        echo "($CONDA_DEFAULT_ENV)"
+    elif [[ $(get_git_head) ]]; then
+        echo "($(get_git_head))"
+    else
+        echo ""
+    fi
+}
+
+# Bash Prompt
+update_PS1 () {
+    PS1="\[\033[32m\]\u\[\033[m\]:\[\033[34m\]\W\[\033[m\]\[\033[33m\]$(get_env_details)\[\033[m\]$ "
+    # inspiration
+    # PS1="\[\e]0;\u@\h: \W\a\]\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\W\[\033[00m\]\$ "
+    # PS1="\[\033[36m\][\[\033[m\]\[\033[34m\]\u@\h\[\033[m\] \[\033[32m\]\W\[\033[m\]\[\033[36m\]]\[\033[m\] $ "
+}
+PROMPT_COMMAND=update_PS1
+
+# TODO: enable right prompting or tmux style status line at top/bottom
+# right promting git and conda status
+# rightprompt() {
+#    printf "%*s" $COLUMNS "$(get_git_head; echo $CONDA_DEFAULT_ENV)"
+# }
+# update_PS1 () {
+#  PS1="\[\033[01;33m\]$(tput sc; rightprompt; tput rc)\[\033[01;32m\]${debian_chroot:+($debian_chroot)}\u@\h\[\033[00m\]:\[\033[01;34m\]\W\a\[\033[00m\]\$ "
+# }
+# shopt -u promptvars
+# PROMPT_COMMAND=update_PS1
+
+# function prompt_right() {
+#   echo -e "\033[0;33m"$(echo $CONDA_DEFAULT_ENV;__git_ps1)"\033[0m"
+# }
+# function prompt_left() {
+#   # echo -e "\033[0;32m\u@\h\033[0m:\033[0;34m\w\033[0m"
+#   echo -e "\033[0;34m\w\033[0m"
+# }
+# function prompt() {
+#     # compensate=11
+#     # PS1=$(printf "%*s\r%s\$ " "$(($(tput cols)+${compensate}))" "$(prompt_right)" "$(prompt_left)")
+#     PS1="$(prompt_right)$(prompt_left) \$ "
+# }
+
