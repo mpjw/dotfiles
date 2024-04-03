@@ -10,8 +10,16 @@ get_git_head() {
     basename "$(git symbolic-ref HEAD 2>/dev/null)"
 }
 
+get_host() {
+    if [[ $(hostname) == "L13Y" ]]; then
+	echo "\u"
+    else
+	echo "\u@\h"
+    fi
+}
+
 # determine software environment details: conda and git
-get_env_details() {
+get_env() {
     if [[ $(get_git_head) && $CONDA_DEFAULT_ENV ]]; then
         echo "($CONDA_DEFAULT_ENV,$(get_git_head))"
     elif [[ $CONDA_DEFAULT_ENV ]]; then
@@ -25,7 +33,7 @@ get_env_details() {
 
 # Bash Prompt
 update_PS1 () {
-    PS1="\[\033[32m\]\u\[\033[m\]:\[\033[34m\]\W\[\033[m\]\[\033[33m\]$(get_env_details)\[\033[m\]$ "
+	PS1="\[\033[32m\]$(get_host)\[\033[m\]:\[\033[34m\]\W\[\033[m\]\[\033[33m\]$(get_env)\[\033[m\]$ "
     # inspiration
     # PS1="\[\e]0;\u@\h: \W\a\]\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\W\[\033[00m\]\$ "
     # PS1="\[\033[36m\][\[\033[m\]\[\033[34m\]\u@\h\[\033[m\] \[\033[32m\]\W\[\033[m\]\[\033[36m\]]\[\033[m\] $ "
