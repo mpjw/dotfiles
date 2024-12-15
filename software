@@ -4,5 +4,7 @@
 # links for custom software installation
 https://github.com/conda-forge/miniforge/releases/download/23.11.0-0/Miniforge3-23.11.0-0-Linux-x86_64.sh
 
-
+conda update -n base conda
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
 
