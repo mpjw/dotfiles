@@ -27,5 +27,7 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-. "$HOME/.atuin/bin/env"
+# . "$HOME/.atuin/bin/env"
+# export RSTUDIO_WHICH_R=/home/mpjw/miniforge3/envs/dataviz/bin/R
+# export LD_LIBRARY_PATH=/home/mpjw/miniforge3/envs/dataviz/lib/R/lib:/home/mpjw/miniforge3/envs/dataviz/lib
 
