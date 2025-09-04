@@ -1,10 +1,69 @@
 #!/usr/bin/sh
 
+# install software stack for debian based systems (e.g. Ubuntu)
+
+# [flatpak](https://flatpak.org/setup/Ubuntu)
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# reboot
+
+# flatpak installs
+flatpak install 
+
+# basic Linux tools
+sudo apt install vim git htop terminator
 
 # links for custom software installation
-https://github.com/conda-forge/miniforge/releases/download/23.11.0-0/Miniforge3-23.11.0-0-Linux-x86_64.sh
+wget -P ~/Downloads/ https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh
+chmod u+x ~/Downloads/Miniforge3-$(uname)-$(uname -m).sh
+~/Downloads/Miniforge3-Linux-x86_64.sh
 
 conda update -n base conda
 conda install -n base conda-libmamba-solver
 conda config --set solver libmamba
+
+# VS code from https://code.visualstudio.com/docs/setup/linux
+
+# programming lang
+sudo apt install python3
+
+# R from https://cran.rstudio.com/
+# update indices
+sudo apt update -qq
+# install two helper packages we need
+sudo apt install --no-install-recommends software-properties-common dirmngr
+# add the signing key (by Michael Rutter) for these repos
+# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
+# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# add the repo from CRAN -- lsb_release adjusts to 'noble' or 'jammy' or ... as needed
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+# install R itself
+sudo apt install --no-install-recommends r-base
+
+# Docker from https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+
+# LRZ sync + share from https://sasrepo.nas.lrz.de/apt/README.txt or https://sasrepo.nas.lrz.de/
+sudo echo "Adding LRZ Sync+Share public key..." && wget -O- https://sasrepo.nas.lrz.de/lrz-sasrepo-signing-gpg-key-g1.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/lrz-syncandshare-archive-keyring.gpg > /dev/null && echo "Saved as:" && ls -l /etc/apt/keyrings/lrz-syncandshare-archive-keyring.gpg
+sudo echo -e "Types: deb\nURIs: https://deb.sasrepo.nas.lrz.de/stable\nSuites: stable\nArchitectures: amd64\nComponents: main\nSigned-By: /etc/apt/keyrings/lrz-syncandshare-archive-keyring.gpg" | sudo tee /etc/apt/sources.list.d/lrz-syncandshare.sources
+sudo echo -e "Package: *\nPin: origin deb.sasrepo.nas.lrz.de\nPin-Priority: 100" | sudo tee /etc/apt/preferences.d/lrz-syncandshare.pref
+sudo apt-get update
+sudo apt install lrz-sync-share
 
