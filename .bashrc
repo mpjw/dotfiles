@@ -1,4 +1,3 @@
-#!/usr/bin/sh
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
 # If not running interactively, don't do anything
@@ -48,25 +47,27 @@ if ! shopt -oq posix; then
 fi
 
 
-[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+#[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 # eval "$(atuin init bash)"
 
+# TODO: remove conda init, rather source this .bashrc from every system and 
+# leave the system specific conda init in ~/.bashrc
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/mpjw/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/mpjw/miniforge3/etc/profile.d/conda.sh" ]; then
-        . "/home/mpjw/miniforge3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/mpjw/miniforge3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
-if [ -f "/home/mpjw/miniforge3/etc/profile.d/mamba.sh" ]; then
-    . "/home/mpjw/miniforge3/etc/profile.d/mamba.sh"
-fi
+#__conda_setup="$('/home/mpjw/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/mpjw/miniforge3/etc/profile.d/conda.sh" ]; then
+#        . "/home/mpjw/miniforge3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/mpjw/miniforge3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+#
+#if [ -f "/home/mpjw/miniforge3/etc/profile.d/mamba.sh" ]; then
+#    . "/home/mpjw/miniforge3/etc/profile.d/mamba.sh"
+#fi
 # <<< conda initialize <<<
 
