@@ -1,0 +1,385 @@
+"","Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built"
+"AnnotationDbi","AnnotationDbi","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.62.2",NA,"R (>= 2.7.0), methods, stats4, BiocGenerics (>= 0.29.2),
+Biobase (>= 1.17.0), IRanges","DBI, RSQLite, S4Vectors (>= 0.9.25), stats, KEGGREST",NA,"utils, hgu95av2.db, GO.db, org.Sc.sgd.db, org.At.tair.db,
+RUnit, TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db,
+reactome.db, AnnotationForge, graph, EnsDb.Hsapiens.v75,
+BiocStyle, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"askpass","askpass","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"base","base","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,"methods",NA,"Part of R 4.3.0",NA,NA,NA,NA,NA,"4.3.0"
+"BH","BH","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.81.0-1",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.3.0"
+"Biobase","Biobase","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.60.0",NA,"R (>= 2.10), BiocGenerics (>= 0.27.1), utils","methods",NA,"tools, tkWidgets, ALL, RUnit, golubEsets, BiocStyle, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"BiocFileCache","BiocFileCache","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.8.0",NA,"R (>= 3.4.0), dbplyr (>= 1.0.0)","methods, stats, utils, dplyr, RSQLite, DBI, filelock, curl,
+httr",NA,"testthat, knitr, BiocStyle, rmarkdown, rtracklayer",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"BiocGenerics","BiocGenerics","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.46.0",NA,"R (>= 4.0.0), methods, utils, graphics, stats","methods, utils, graphics, stats",NA,"Biobase, S4Vectors, IRanges, GenomicRanges, DelayedArray,
+Biostrings, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2,
+flowClust, MSnbase, annotate, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"BiocIO","BiocIO","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.10.0",NA,"R (>= 4.3.0)","BiocGenerics, S4Vectors, methods, tools",NA,"testthat, knitr, rmarkdown, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"BiocManager","BiocManager","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.30.21",NA,NA,"utils",NA,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"BiocParallel","BiocParallel","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.34.2",NA,"methods, R (>= 3.5.0)","stats, utils, futile.logger, parallel, snow, codetools","BH, cpp11","BiocGenerics, tools, foreach, BBmisc, doParallel,
+GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle,
+knitr, batchtools, data.table","Rmpi","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"BiocVersion","BiocVersion","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.17.1",NA,"R (>= 4.3.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"biomaRt","biomaRt","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.56.1",NA,"methods","utils, XML (>= 3.99-0.7), AnnotationDbi, progress, stringr,
+httr, digest, BiocFileCache, rappdirs, xml2",NA,"BiocStyle, knitr, mockery, rmarkdown, testthat, webmockr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"Biostrings","Biostrings","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.68.1",NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.31.2), XVector (>= 0.37.1),
+GenomeInfoDb","methods, utils, grDevices, graphics, stats, crayon","S4Vectors, IRanges, XVector","BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy
+(>= 1.41.3), affydata (>= 1.11.5), RUnit","Rmpi","Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"bit","bit","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.0.5",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"bit64","bit64","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.0.5",NA,"R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"bitops","bitops","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0-7",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"blob","blob","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.4",NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"BSgenome","BSgenome","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.68.0",NA,"R (>= 2.8.0), methods, BiocGenerics (>= 0.13.8), S4Vectors (>=
+0.17.28), IRanges (>= 2.13.16), GenomeInfoDb (>= 1.25.6),
+GenomicRanges (>= 1.31.10), Biostrings (>= 2.47.6), rtracklayer
+(>= 1.39.7)","methods, utils, stats, matrixStats, BiocGenerics, S4Vectors,
+IRanges, XVector (>= 0.29.3), GenomeInfoDb, GenomicRanges,
+Biostrings, Rsamtools, rtracklayer",NA,"BiocManager, Biobase, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.UCSC.hg38,
+BSgenome.Hsapiens.UCSC.hg38.masked,
+BSgenome.Mmusculus.UCSC.mm10, BSgenome.Rnorvegicus.UCSC.rn5,
+BSgenome.Scerevisiae.UCSC.sacCer1,
+BSgenome.Hsapiens.NCBI.GRCh38,
+TxDb.Hsapiens.UCSC.hg38.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene,
+SNPlocs.Hsapiens.dbSNP144.GRCh38,
+XtraSNPlocs.Hsapiens.dbSNP144.GRCh38, hgu95av2probe, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"BSgenome.Hsapiens.UCSC.hg38","BSgenome.Hsapiens.UCSC.hg38","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.4.5",NA,"R (>= 4.2.0), GenomeInfoDb (>= 1.34.9), BSgenome (>= 1.66.2)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"cachem","cachem","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.8",NA,NA,"rlang, fastmap (>= 1.1.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"cli","cli","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.6.1",NA,"R (>= 3.4)","utils",NA,"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
+(>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat, tibble, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"clipr","clipr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.8.0",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"cluster","cluster","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.1.4","recommended","R (>= 3.5.0)","graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"codetools","codetools","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.2-19","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.3.0"
+"colorspace","colorspace","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.1-0",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"compiler","compiler","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,NA,"4.3.0"
+"cowplot","cowplot","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.1",NA,"R (>= 3.5.0)","ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales",NA,"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram",NA,"GPL-2",NA,NA,NA,NA,"no","4.3.0"
+"cpp11","cpp11","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4.4",NA,NA,NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat, tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"crayon","crayon","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.5.2",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"credentials","credentials","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.0.3",NA,NA,"openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass",NA,"testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"curl","curl","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","7.0.0",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, later,
+rmarkdown, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"data.table","data.table","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.14.8",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"datasets","datasets","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,NA,"4.3.0"
+"DBI","DBI","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.3",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
+knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
+1.1-2), testthat, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.3.0"
+"dbplyr","dbplyr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.3.3",NA,"R (>= 3.1)","blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>=
+1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr,
+methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2),
+rlang (>= 1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0),
+tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.2.15), testthat (>= 3.0.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"DelayedArray","DelayedArray","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.26.6",NA,"R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+0.43.4), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2),
+IRanges (>= 2.17.3), S4Arrays (>= 1.0.1)","stats","S4Vectors","BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+knitr, rmarkdown, BiocStyle, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"desc","desc","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.4.3",NA,"R (>= 3.4)","cli, R6, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"digest","digest","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.6.33",NA,"R (>= 3.3.0)","utils",NA,"tinytest, simplermarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"dlstats","dlstats","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.1.7",NA,"R (>= 3.3.0)","ggplot2, jsonlite, magrittr, RColorBrewer, scales, utils",NA,"knitr, tidyr, DT, rmarkdown, prettydoc",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"doParallel","doParallel","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.17",NA,"R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils",NA,NA,"caret, mlbench, rpart, RUnit","compiler","GPL-2",NA,NA,NA,NA,"no","4.3.0"
+"dplyr","dplyr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.2",NA,"R (>= 3.5.0)","cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+utils, vctrs (>= 0.6.0)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+testthat (>= 3.1.5), tidyr (>= 1.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"fansi","fansi","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.4",NA,"R (>= 3.1.0)","grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"farver","farver","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.1.1",NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"fastmap","fastmap","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.1",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"filelock","filelock","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.2",NA,NA,NA,NA,"callr (>= 2.0.0), covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"foreach","foreach","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.5.2",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.3.0"
+"formatR","formatR","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.14",NA,"R (>= 3.2.3)",NA,NA,"rstudioapi, shiny, testit, rmarkdown, knitr",NA,"GPL",NA,NA,NA,NA,"no","4.3.0"
+"futile.logger","futile.logger","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.4.3",NA,"R (>= 3.0.0)","utils, lambda.r (>= 1.1.0), futile.options",NA,"testthat, jsonlite",NA,"LGPL-3",NA,NA,NA,NA,"no","4.3.0"
+"futile.options","futile.options","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.1",NA,"R (>= 2.8.0)",NA,NA,NA,NA,"LGPL-3",NA,NA,NA,NA,"no","4.3.0"
+"generics","generics","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.1.3",NA,"R (>= 3.2)","methods",NA,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"GenomeInfoDb","GenomeInfoDb","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.36.1",NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.25.12), IRanges (>= 2.13.12)","stats, stats4, utils, RCurl, GenomeInfoDbData",NA,"GenomicRanges, Rsamtools, GenomicAlignments, GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene, BSgenome,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"GenomeInfoDbData","GenomeInfoDbData","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.10",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"GenomicAlignments","GenomicAlignments","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.36.0",NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>= 1.13.1),
+GenomicRanges (>= 1.41.5), SummarizedExperiment (>= 1.9.13),
+Biostrings (>= 2.55.7), Rsamtools (>= 1.31.2)","methods, utils, stats, BiocGenerics, S4Vectors, IRanges,
+GenomicRanges, Biostrings, Rsamtools, BiocParallel","S4Vectors, IRanges","ShortRead, rtracklayer, BSgenome, GenomicFeatures,
+RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+BSgenome.Dmelanogaster.UCSC.dm3, BSgenome.Hsapiens.UCSC.hg19,
+DESeq2, edgeR, RUnit, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"GenomicFeatures","GenomicFeatures","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.52.1",NA,"R (>= 3.5.0), BiocGenerics (>= 0.1.0), S4Vectors (>= 0.17.29),
+IRanges (>= 2.13.23), GenomeInfoDb (>= 1.35.8), GenomicRanges
+(>= 1.31.17), AnnotationDbi (>= 1.41.4)","methods, utils, stats, tools, DBI, RSQLite (>= 2.0), RCurl,
+XVector (>= 0.19.7), Biostrings (>= 2.47.6), BiocIO,
+rtracklayer (>= 1.51.5), biomaRt (>= 2.17.1), Biobase (>=
+2.15.1)",NA,"RMariaDB, org.Mm.eg.db, org.Hs.eg.db, BSgenome,
+BSgenome.Hsapiens.UCSC.hg19 (>= 1.3.17),
+BSgenome.Celegans.UCSC.ce11, BSgenome.Dmelanogaster.UCSC.dm3
+(>= 1.3.17), mirbase.db, FDb.UCSC.tRNAs,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Celegans.UCSC.ce11.ensGene,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene (>= 2.7.1),
+TxDb.Mmusculus.UCSC.mm10.knownGene (>= 3.4.7),
+TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts,
+TxDb.Hsapiens.UCSC.hg38.knownGene (>= 3.4.6),
+SNPlocs.Hsapiens.dbSNP144.GRCh38, Rsamtools, pasillaBamSubset
+(>= 0.0.5), GenomicAlignments (>= 1.15.7), ensembldb,
+AnnotationFilter, RUnit, BiocStyle, knitr, markdown",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"GenomicRanges","GenomicRanges","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.52.0",NA,"R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.27.12), IRanges (>= 2.31.2), GenomeInfoDb (>=
+1.15.2)","utils, stats, XVector (>= 0.29.2)","S4Vectors, IRanges","Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart22,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+rmarkdown, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"gert","gert","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.2.0",NA,NA,"askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
+rstudioapi (>= 0.11), sys, zip (>= 2.1.0)",NA,"spelling, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"ggalluvial","ggalluvial","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.12.5",NA,"R (>= 3.6), ggplot2 (>= 2.2)","stats, dplyr (>= 0.7), tidyr (>= 0.7), lazyeval, rlang,
+tidyselect",NA,"grid, alluvial, testthat, knitr, rmarkdown, babynames,
+sessioninfo, ggrepel, shiny (>= 1.4.0.2), htmltools, sp (>=
+1.4-0), ggfittext (>= 0.6), vdiffr (>= 0.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"ggdendro","ggdendro","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.1.23",NA,NA,"MASS, ggplot2(>= 0.9.2)",NA,"rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown, covr",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"ggplot2","ggplot2","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.4.2",NA,"R (>= 3.3)","cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>=
+1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
+0.7-3), svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr
+(>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"gh","gh","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.5.0",NA,"R (>= 4.1)","cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini,
+jsonlite, lifecycle, rlang (>= 1.0.0)",NA,"connectcreds, covr, knitr, rmarkdown, rprojroot, spelling,
+testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"gitcreds","gitcreds","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.1.2",NA,"R (>= 3.4)",NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"glue","glue","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.6.2",NA,"R (>= 3.4)","methods",NA,"covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
+microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
+testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"graphics","graphics","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"grDevices",NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"grDevices","grDevices","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,"KernSmooth",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"grid","grid","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"grDevices, utils",NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"gridBase","gridBase","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4-7",NA,"R (>= 2.3.0)","graphics, grid",NA,"lattice",NA,"GPL",NA,NA,NA,NA,"no","4.3.0"
+"gridExtra","gridExtra","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.3",NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.3.0"
+"gtable","gtable","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.3.3",NA,"R (>= 3.5)","cli, glue, grid, lifecycle, rlang (>= 1.1.0)",NA,"covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"here","here","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.2",NA,NA,"rprojroot (>= 2.1.0)",NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"hms","hms","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.3",NA,NA,"lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>=
+0.3.8)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"httr","httr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.4.6",NA,"R (>= 3.5)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"httr2","httr2","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.1",NA,"R (>= 4.1)","cli (>= 3.0.0), curl (>= 6.4.0), glue, lifecycle, magrittr,
+openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3),
+withr",NA,"askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
+knitr, later (>= 1.4.0), nanonext, paws.common, promises,
+rmarkdown, testthat (>= 3.1.8), tibble, webfakes (>= 1.4.0),
+xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"ini","ini","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"IRanges","IRanges","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.34.1",NA,"R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.39.2),
+S4Vectors (>= 0.33.3)","stats4","S4Vectors","XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"isoband","isoband","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.2.7",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"iterators","iterators","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.3.0"
+"jsonlite","jsonlite","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.8.7",NA,"methods",NA,NA,"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"KEGGREST","KEGGREST","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.40.0",NA,"R (>= 3.5.0)","methods, httr, png, Biostrings",NA,"RUnit, BiocGenerics, knitr, markdown",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"labeling","labeling","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4.2",NA,NA,"stats, graphics",NA,NA,NA,"MIT + file LICENSE | Unlimited",NA,NA,NA,NA,"no","4.3.0"
+"lambda.r","lambda.r","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.4",NA,"R (>= 3.0.0)","formatR",NA,"testit",NA,"LGPL-3",NA,NA,NA,NA,"no","4.3.0"
+"lattice","lattice","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.21-8","recommended","R (>= 4.0.0)","grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra, colorspace","chron","GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"lazyeval","lazyeval","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.2.2",NA,"R (>= 3.1.0)",NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"lifecycle","lifecycle","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.3",NA,"R (>= 3.4)","cli (>= 3.4.0), glue, rlang (>= 1.0.6)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"magrittr","magrittr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.0.3",NA,"R (>= 3.4.0)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"MASS","MASS","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","7.3-60","recommended","R (>= 4.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"Matrix","Matrix","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.6-0","recommended","R (>= 3.5.0), methods","grDevices, graphics, grid, lattice, stats, utils",NA,"MASS, datasets, sfsmisc","SparseM, graph","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.3.0"
+"MatrixGenerics","MatrixGenerics","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.12.2",NA,"matrixStats (>= 1.0.0)","methods",NA,"Matrix, sparseMatrixStats, SparseArray, DelayedArray,
+DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"matrixStats","matrixStats","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.0",NA,"R (>= 2.12.0)",NA,NA,"base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"memoise","memoise","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.0.1",NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"methods","methods","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"utils, stats",NA,"codetools",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"mgcv","mgcv","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.9-0","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"mime","mime","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.12",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.3.0"
+"munsell","munsell","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"MutationalPatterns","MutationalPatterns","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.10.0",NA,"R (>= 4.2.0), GenomicRanges (>= 1.24.0), NMF (>= 0.20.6)","stats, S4Vectors, BiocGenerics (>= 0.18.0), BSgenome (>=
+1.40.0), VariantAnnotation (>= 1.18.1), dplyr (>= 0.8.3),
+tibble(>= 2.1.3), purrr (>= 0.3.2), tidyr (>= 1.0.0), stringr
+(>= 1.4.0), magrittr (>= 1.5), ggplot2 (>= 2.1.0), pracma (>=
+1.8.8), IRanges (>= 2.6.0), GenomeInfoDb (>= 1.12.0),
+Biostrings (>= 2.40.0), ggdendro (>= 0.1-20), cowplot (>=
+0.9.2), ggalluvial (>= 0.12.2), RColorBrewer, methods",NA,"BSgenome.Hsapiens.UCSC.hg19 (>= 1.4.0), BiocStyle (>= 2.0.3),
+TxDb.Hsapiens.UCSC.hg19.knownGene (>= 3.2.2), biomaRt (>=
+2.28.0), gridExtra (>= 2.2.1), rtracklayer (>= 1.32.2), ccfindR
+(>= 1.6.0), GenomicFeatures, AnnotationDbi, testthat, knitr,
+rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"nlme","nlme","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.1-162","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"NMF","NMF","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.26",NA,"R (>= 3.0.0), methods, utils, registry, rngtools (>= 1.2.3),
+cluster","graphics, stats, stringr (>= 1.0.0), digest, grid, grDevices,
+gridBase, colorspace, RColorBrewer, foreach, doParallel,
+ggplot2, reshape2, Biobase, codetools, BiocManager",NA,"fastICA, doMPI, bigmemory (>= 4.2), synchronicity(>= 1.3.2),
+corpcor, xtable, devtools, knitr, RUnit, mail",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"openssl","openssl","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.0.6",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"parallel","parallel","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"tools, compiler",NA,"methods","snow, Rmpi","Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"pillar","pillar","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.9.0",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
+(>= 1.1.0), utils, vctrs (>= 0.5.0)",NA,"bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"pkgconfig","pkgconfig","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.0.3",NA,NA,"utils",NA,"covr, testthat, disposables (>= 1.0.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"plogr","plogr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.2.0",NA,NA,NA,NA,"Rcpp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"plyr","plyr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.8.8",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"png","png","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.1-8",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.3.0"
+"pracma","pracma","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.4.2",NA,"R (>= 3.1.0)","graphics, grDevices, stats, utils",NA,"NlcOptim, quadprog",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.3.0"
+"prettyunits","prettyunits","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"progress","progress","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.2",NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"purrr","purrr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.1",NA,"R (>= 3.4.0)","cli (>= 3.4.0), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 0.4.10), vctrs (>= 0.5.0)","cli","covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
+testthat (>= 3.0.0), tibble, tidyselect",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"R6","R6","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"rappdirs","rappdirs","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"RColorBrewer","RColorBrewer","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1-3",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.3.0"
+"Rcpp","Rcpp","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.11",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"RCurl","RCurl","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.98-1.12",NA,"R (>= 3.4.0), methods","bitops",NA,"XML",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"registry","registry","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.5-1",NA,"R (>= 2.6.0)","utils",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.3.0"
+"renv","renv","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.5",NA,NA,"utils",NA,"BiocManager, cli, compiler, covr, cpp11, devtools, generics,
+gitcreds, jsonlite, jsonvalidate, knitr, miniUI, modules,
+packrat, pak, R6, remotes, reticulate, rmarkdown, rstudioapi,
+shiny, testthat, uuid, waldo, yaml, webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"reshape2","reshape2","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.4.4",NA,"R (>= 3.1)","plyr (>= 1.8.1), Rcpp, stringr","Rcpp","covr, lattice, testthat (>= 0.8.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"restfulr","restfulr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.0.15",NA,"R (>= 3.4.0), methods","XML, RCurl, rjson, S4Vectors (>= 0.13.15), yaml",NA,"getPass, rsolr, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"Rhtslib","Rhtslib","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.2.0",NA,NA,"zlibbioc","zlibbioc","knitr, rmarkdown, BiocStyle",NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.3.0"
+"rjson","rjson","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.2.21",NA,"R (>= 4.0.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.3.0"
+"rlang","rlang","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.1.1",NA,"R (>= 3.5.0)","utils",NA,"cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+usethis, vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"rngtools","rngtools","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.5.2",NA,"R (>= 3.2.0), methods","digest, utils, stats, parallel",NA,"covr, RUnit, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"rprojroot","rprojroot","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.1.1",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, rlang, rmarkdown, testthat (>=
+3.2.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"Rsamtools","Rsamtools","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.16.0",NA,"methods, GenomeInfoDb (>= 1.1.3), GenomicRanges (>= 1.31.8),
+Biostrings (>= 2.47.6), R (>= 3.5.0)","utils, BiocGenerics (>= 0.25.1), S4Vectors (>= 0.17.25),
+IRanges (>= 2.13.12), XVector (>= 0.19.7), zlibbioc, bitops,
+BiocParallel, stats","Rhtslib (>= 1.99.3), S4Vectors, IRanges, XVector, Biostrings","GenomicAlignments, ShortRead (>= 1.19.10), GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14,
+BSgenome.Hsapiens.UCSC.hg19, RUnit, BiocStyle, knitr",NA,"Artistic-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"RSQLite","RSQLite","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.3.1",NA,"R (>= 3.1.0)","bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods,
+pkgconfig","plogr (>= 0.2.0), cpp11 (>= 0.4.0)","callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr,
+magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"yes","4.3.0"
+"rstudioapi","rstudioapi","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.17.1",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"rtracklayer","rtracklayer","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.60.0",NA,"R (>= 3.5.0), methods, GenomicRanges (>= 1.37.2)","XML (>= 1.98-0), BiocGenerics (>= 0.35.3), S4Vectors (>=
+0.23.18), IRanges (>= 2.13.13), XVector (>= 0.19.7),
+GenomeInfoDb (>= 1.15.2), Biostrings (>= 2.47.6), zlibbioc,
+RCurl (>= 1.4-2), Rsamtools (>= 1.31.2), GenomicAlignments (>=
+1.15.6), BiocIO, tools, restfulr (>= 0.0.13)","S4Vectors, IRanges, XVector","BSgenome (>= 1.33.4), humanStemCell, microRNA (>= 1.1.1),
+genefilter, limma, org.Hs.eg.db, hgu133plus2.db,
+GenomicFeatures, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene, RUnit",NA,"Artistic-2.0 + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"S4Arrays","S4Arrays","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.0.4",NA,"R (>= 4.3.0), methods, Matrix, BiocGenerics (>= 0.45.2),
+S4Vectors, IRanges","stats, crayon","S4Vectors","BiocParallel, SparseArray (>= 0.0.4), DelayedArray, testthat,
+knitr, rmarkdown, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"S4Vectors","S4Vectors","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.38.1",NA,"R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.37.0)",NA,NA,"IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle,
+knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"scales","scales","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.1",NA,"R (>= 3.2)","farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, rlang (>= 1.0.0), viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0), waldo (>= 0.4.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"snow","snow","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4-4",NA,"R (>= 2.13.1), utils",NA,NA,"rlecuyer","Rmpi","GPL",NA,NA,NA,NA,"no","4.3.0"
+"splines","splines","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"stats","stats","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"stats4","stats4","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,NA,"4.3.0"
+"stringi","stringi","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.7.12",NA,"R (>= 3.1)","tools, utils, stats",NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.3.0"
+"stringr","stringr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.5.0",NA,"R (>= 3.3)","cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+(>= 1.0.0), stringi (>= 1.5.3), vctrs",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>=
+3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"SummarizedExperiment","SummarizedExperiment","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.30.2",NA,"R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+GenomicRanges (>= 1.41.5), Biobase","utils, stats, tools, Matrix, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.33.7), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.13.1), S4Arrays (>= 1.0.1), DelayedArray (>= 0.26.3)",NA,"HDF5Array (>= 1.7.5), annotate, AnnotationDbi, hgu95av2.db,
+GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene, jsonlite,
+rhdf5, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown, RUnit,
+testthat, digest",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.3.0"
+"sys","sys","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.4.2",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"tcltk","tcltk","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,"utils",NA,NA,NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"tibble","tibble","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.2.1",NA,"R (>= 3.4.0)","fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
+(>= 0.4.2)",NA,"bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
+here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
+pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
+3.0.2), tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"tidyr","tidyr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.3.0",NA,"R (>= 3.4.0)","cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
+magrittr, purrr (>= 1.0.1), rlang (>= 1.0.4), stringr (>=
+1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs
+(>= 0.5.2)","cpp11 (>= 0.4.0)","covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"tidyselect","tidyselect","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.0",NA,"R (>= 3.4)","cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.4.1), withr",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"tools","tools","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark, knitr, xfun, mathjaxr, V8",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"utf8","utf8","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.2.3",NA,"R (>= 2.10)",NA,NA,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"utils","utils","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","4.3.0","base",NA,NA,NA,"methods, xml2, commonmark, knitr",NA,"Part of R 4.3.0",NA,NA,NA,NA,"yes","4.3.0"
+"VariantAnnotation","VariantAnnotation","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.46.0",NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0),
+MatrixGenerics, GenomeInfoDb (>= 1.15.2), GenomicRanges (>=
+1.41.5), SummarizedExperiment (>= 1.19.5), Rsamtools (>=
+1.99.0)","utils, DBI, zlibbioc, Biobase, S4Vectors (>= 0.27.12), IRanges
+(>= 2.23.9), XVector (>= 0.29.2), Biostrings (>= 2.57.2),
+AnnotationDbi (>= 1.27.9), rtracklayer (>= 1.39.7), BSgenome
+(>= 1.47.3), GenomicFeatures (>= 1.31.3)","S4Vectors, IRanges, XVector, Biostrings, Rhtslib (>= 1.99.3)","RUnit, AnnotationHub, BSgenome.Hsapiens.UCSC.hg19,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+SNPlocs.Hsapiens.dbSNP144.GRCh37, SIFT.Hsapiens.dbSNP132,
+SIFT.Hsapiens.dbSNP137, PolyPhen.Hsapiens.dbSNP131, snpStats,
+ggplot2, BiocStyle",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"vctrs","vctrs","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.6.3",NA,"R (>= 3.5.0)","cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"viridisLite","viridisLite","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4.2",NA,"R (>= 2.10)",NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"whisker","whisker","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.4.1",NA,NA,NA,NA,"markdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.3.0"
+"withr","withr","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.5.0",NA,"R (>= 3.2.0)","graphics, grDevices, stats",NA,"callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+(>= 2.12), RSQLite, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.3.0"
+"XML","XML","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","3.99-0.14",NA,"R (>= 4.0.0), methods, utils",NA,NA,"bitops, RCurl",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"xml2","xml2","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.3.5",NA,"R (>= 3.1.0)","methods",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"XVector","XVector","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","0.40.0",NA,"R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9)","methods, utils, tools, zlibbioc, BiocGenerics, S4Vectors,
+IRanges","S4Vectors, IRanges","Biostrings, drosophila2probe, RUnit",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.3.0"
+"yaml","yaml","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.3.7",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"zip","zip","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","2.3.3",NA,NA,NA,NA,"covr, pillar, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
+"zlibbioc","zlibbioc","/dss/dsshome1/0F/ga89tog2/.conda/envs/rbio/lib/R/library","1.46.0",NA,NA,NA,NA,"BiocStyle",NA,"Artistic-2.0 + file LICENSE",NA,NA,NA,NA,"yes","4.3.0"
