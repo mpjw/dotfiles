@@ -1,4 +1,4 @@
-name: dataviz
+name: ds
 channels:
   - conda-forge
   - r
@@ -540,4 +540,3 @@ dependencies:
       - cryptography==46.0.3
       - docopt==0.6.2
       - pynacl==1.6.1
-prefix: /home/mw/miniforge3/envs/dataviz
